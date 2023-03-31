@@ -1,7 +1,7 @@
 /*
 During this course you will learn the following.
 Make sure to code-along during lecture.
-*/
+
 
 
 // 1. Link the script.js file from the HTML
@@ -51,3 +51,38 @@ let weight = 7.5;
 
 // 10. Events
 
+
+//REVIEW
+ /*
+var a;
+let b;
+const c = 3;
+
+ a = 1;
+b = 2;
+a = a + 1 ; //13
+
+Console.log(a+ b)
+
+function nameOfFunction(){
+        console.log("hello world")
+}
+
+function addition(a, b) {
+        console.log(a+b);
+}
+
+nameOfFunction();
+
+addition(2,3);
+
+
+function area(length , width)  {
+        return length * width;
+        console.log(area(3,5))
+}
+
+function volume(height){
+        area() * height;
+},
+volume(10) /*
