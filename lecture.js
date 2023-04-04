@@ -86,3 +86,13 @@ function volume(height){
         area() * height;
 },
 volume(10) /*
+
+*/
+ // 1. Number
+
+ console.log(2**3)
+
+
+ let exclusiveLowerBound = 7;
+
+console.log('actual is greater than exclusive lower bound:', 9 > exclusiveLowerBound);
