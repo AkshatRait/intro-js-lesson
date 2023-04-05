@@ -90,9 +90,36 @@ volume(10) /*
 */
  // 1. Number
 
- console.log(2**3)
+ //console.log(2**3)
 
 
- let exclusiveLowerBound = 7;
+ //let exclusiveLowerBound = 7;
 
-console.log('actual is greater than exclusive lower bound:', 9 > exclusiveLowerBound);
+//console.log('actual is greater than exclusive lower bound:', 9 > exclusiveLowerBound);
+
+//========== LESSON 4 - STRINGS ==========
+/*let myName = "Akshat";
+let myArray = ['2', '3', 's', 'h', 'a','t'];
+console.log(myArray[2]);
+console.log(myName);
+*/
+var job = "coordinator";
+job = "Director";
+console.log('job before reassignment:' , job)
+
+
+let firstName = "Akshat";
+let surName = "Rait";
+let fullName = firstName + " " + surName;
+
+console.log(fullName);
+/*
+// 1. Create a getPersonStats function statement that takes in 3 Strings: name, job, age. The function should console log a statement such as "Hi my name is [NAME], I am [AGE] years old, and I am a [JOB]".
+
+// 2. Create a sayFirstAndLast function expression that takes in 1 String parameter and console logs "the first character is: [firstChar] and last character is: [lastChar]".
+
+// 3. Create a yellFruitNum arrow function that takes in 1 number parameter, 1 String that is a fruit parameter, and console logs the sentence "I have [number] [FRUIT]" in all caps.
+
+// 4. Create a sliceFruit function that takes in a String of a fruit and console logs everything except the first 2 letters.
+
+// 5. Create a splitFruit function that takes in a String of a fruit and returns an array of the letters split into each index of the array.*/
