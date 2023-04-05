@@ -104,14 +104,13 @@ console.log(getRandom());
 */
 
 // 1. Create a getPersonStats function statement that takes in 3 Strings: name, job, age. The function should console log a statement such as "Hi my name is [NAME], I am [AGE] years old, and I am a [JOB]".
-
-
-let firstName = "Akshat";
-let age = "17";
-let job = "student"
-let fullName = "Hi my name is " + firstName + " " +"I am"  + " " + age + " "+"years old, and I am a" + " " +job;
-
-console.log(fullName);
+const getPersonStats = function(str) {
+  const firstName = "Akshat";
+  const age = "17";
+  const job = "student";
+  console.log(`Hi my name is ${firstName}, I am ${age} years old, and I am a ${job}.`)
+}
+getPersonStats();
 
 
 // 2. Create a sayFirstAndLast function expression that takes in 1 String parameter and console logs "the first character is: [firstChar] and last character is: [lastChar]".
